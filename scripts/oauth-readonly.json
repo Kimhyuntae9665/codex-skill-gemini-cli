@@ -1,0 +1,9 @@
+{
+  "security": { "auth": { "selectedType": "oauth-personal", "enforcedType": "oauth-personal" } },
+  "tools": { "core": ["read_file", "list_directory", "glob", "grep_search"] },
+  "mcp": { "allowed": [] },
+  "hooksConfig": { "enabled": false },
+  "skills": { "enabled": false },
+  "advanced": { "ignoreLocalEnv": true },
+  "telemetry": { "enabled": false }
+}

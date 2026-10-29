@@ -1,0 +1,17 @@
+work/
+*.progress.json
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+work/
+dist/
+.env
+.env.*
+*.credential.xml
+*.pem
+*.key
+auth.json
+settings.json

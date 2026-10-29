@@ -1,0 +1,24 @@
+{
+  "skill": "gemini-cli",
+  "original_skill_sha256": "4136af627131261737c93e10dbb037424387f268c1acfe9132121814bba77d6b",
+  "unchanged_original_files": [
+    "agents/openai.yaml",
+    "references/fallback-and-progress.md",
+    "scripts/ask-antigravity.mjs",
+    "scripts/ask-gemini.mjs",
+    "scripts/oauth-readonly.json",
+    "scripts/parse-antigravity.mjs",
+    "scripts/review-policy.mjs",
+    "scripts/stream-runner.mjs",
+    "scripts/tests/fake-agy-stream.mjs",
+    "scripts/tests/test-antigravity-bridge.mjs",
+    "scripts/tests/test-fallback.mjs",
+    "SKILL.md"
+  ],
+  "public_adaptations": [
+    "references/integration-notes.md",
+    "references/review-usage-20261024.md"
+  ],
+  "excluded_original_files": [],
+  "notes": "SKILL.md is copied exactly. Public adaptations remove account-specific observations or clarify generic comments. Excluded originals, if any, are runtime/cache/credential artifacts, not hidden required dependencies. Repository LICENSE applies to original local skill/bridge additions; third-party material retains its own terms."
+}

@@ -1,0 +1,17 @@
+name: Validate skill package
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python tools/verify_package.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python tools/run_offline_tests.py

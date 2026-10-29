@@ -1,0 +1,5 @@
+# Integration notes for public distribution
+
+The original file contained local account authentication, model availability and execution observations and was excluded. The preserved SKILL.md describes one prior installation and is not evidence about the reader's account. The bridge is local Node.js glue, not a copy of a third-party bridge. Official documentation: [installation](https://antigravity.google/docs/cli/install/), [headless protocol](https://antigravity.google/docs/cli/headless/), [models](https://antigravity.google/docs/models), [plans](https://antigravity.google/docs/plans), and [credits](https://antigravity.google/docs/cli/credits/). User completes installation and authentication independently.
+
+Prior research considered [agent-bridge](https://github.com/kununu/agent-bridge), [PAL MCP](https://github.com/BeehiveInnovations/pal-mcp-server/blob/main/docs/tools/clink.md), and [Antigravity CLI](https://github.com/google-antigravity/antigravity-cli). Their code is not included; consult each upstream for its own terms.

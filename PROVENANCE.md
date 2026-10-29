@@ -1,0 +1,5 @@
+# Provenance
+
+Source: local `C:/Users/user/.codex/skills/gemini-cli`, packaged 2026-10-30. `SKILL.md`, `agents/`, `scripts/`, and `references/fallback-and-progress.md` are copied byte-for-byte. The other two reference documents are public replacements: their originals included account-specific observations. `README.md` and `install.ps1` are supplemental. No account credentials, live account settings, session output, or third-party binaries are included. `scripts/oauth-readonly.json` is a static legacy authentication-mode configuration template, not an OAuth credential.
+
+The supplied local original tree had no license. The author licenses the original skill, bridge and documentation in this public distribution under MIT; see LICENSE. Antigravity, Google products and linked third-party material are excluded and remain subject to their respective terms. No third-party license or permission is claimed. `MANIFEST.sha256` hashes each distributed file except itself. Original `SKILL.md` SHA-256: `4136af627131261737c93e10dbb037424387f268c1acfe9132121814bba77d6b`.

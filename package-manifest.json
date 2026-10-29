@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "skill_name": "gemini-cli",
+  "original_skill_sha256": "4136af627131261737c93e10dbb037424387f268c1acfe9132121814bba77d6b",
+  "files": {
+    ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    ".github/workflows/validate.yml": "48d7c949845c3446fcedf0d371fd4dad36f20fae8e54912d278a852ee63ac980",
+    ".gitignore": "cb34482ac8b8aa19a59c37170383ef32e3973d90f55356119e63710b27a96542",
+    "agents/openai.yaml": "cd713297eb554e068e58be3d8334673831a8a84b8e1c40a48c729e9380b6f4c7",
+    "install.ps1": "216e974f29cc9b340b9e3a495284b8c105c67237c6e85990e1678953f81f8ab7",
+    "LICENSE": "6ad9ebb09410a990250a52c086f3935ac741f675c664c813d19beb910c187a84",
+    "MANIFEST.sha256": "61eec071b8224bfde7855e8253320ae381a7136f5bd35b2258f9e6fda69e0e12",
+    "PROVENANCE.md": "3006b11eabac729dd483bce2aa7f156d81eda028c919d15eed32b44f8be8367b",
+    "README.md": "e7ac9b68195dfed373ae96f84fa6fe4308a6c7d7068a2de9347e89bb35d6b0de",
+    "references/fallback-and-progress.md": "e755a6a5db23998cac5e31be17124a99ef7f35a5bc41a1678f6ef57590aa1af0",
+    "references/integration-notes.md": "b0f82c8b282048597a2078c3738f0dc8b38a5eef65b71c823fe850e5804fec29",
+    "references/review-usage-20261024.md": "fa5fa21dc42a14f22acde5a16bf28c5b00f238d02b20d97580003e6c1d7d04fa",
+    "scripts/ask-antigravity.mjs": "f9e151f284d4eb92cf710a7d6eb2dcb53ec8ae052045dc2630351c0ccfae622b",
+    "scripts/ask-gemini.mjs": "57c5851e736603877cb427105e57bad8c1f6dedb6235ed632f8b4f284068054b",
+    "scripts/oauth-readonly.json": "6ae2b7d65611367bc31a3cd3dece8dd0a78a9f342b11d2a073a800c0e11967cd",
+    "scripts/parse-antigravity.mjs": "6c505987d22425cfaf6d2f0793d9679bb3e05e6e6fd25089751d6bf150cfbb9d",
+    "scripts/review-policy.mjs": "6cb4133e5f7b42fb8162bd77a1ce142a3f24ee5a0197bbb40df534ebadfae9ed",
+    "scripts/stream-runner.mjs": "35d305c0d135cbe05dbbec520b9a438dda3028431b54bdb6be5de40317920b5b",
+    "scripts/tests/fake-agy-stream.mjs": "8e1a18738531a021347fa99cbfd7b2135f9928da1286172beb794bc07f46dbe7",
+    "scripts/tests/test-antigravity-bridge.mjs": "f8a1da0eec3fedd3acb1fde2293bfdc1dae37bcf11146aedf1b8b07fbaa646a7",
+    "scripts/tests/test-fallback.mjs": "2998ff1e1cfdc47c1346807052cb0a305c7f02644d358203964d0503092d3c1b",
+    "SKILL.md": "4136af627131261737c93e10dbb037424387f268c1acfe9132121814bba77d6b",
+    "source-provenance.json": "30c18b4d44cbb171c16c910d4a3e2ccfd0db2565e56a55ba31a684bf3ec30992",
+    "tools/run_offline_tests.py": "5a4469fa19fe8cdc787ad3501215b5ec72b9f3762521fa5c2760b12549d2ed04",
+    "tools/verify_package.py": "fcaa34b55332bd3b4e5f6e2a2d3cd7bf6f46bfe64899f59800a503225eef8a8d"
+  },
+  "scope": "All public files except this self-referential manifest and ignored runtime/cache/output directories."
+}

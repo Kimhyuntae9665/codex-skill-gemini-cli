@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gemini collaboration"
+  short_description: "Review Codex outputs with Gemini and verify findings"
+  default_prompt: "Use $gemini-cli to independently review this Codex result and verify any material findings."
